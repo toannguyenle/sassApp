@@ -1,7 +1,7 @@
 SassyArt::Application.routes.draw do
   root 'sessions#new'
   get 'paintings/' => 'paintings#index'
-  resources :users , except: [:destroy]
+  resources :users
   resource :sessions, only: [:new, :create, :destroy]
   # ONE WAY TO DO SESSIONS
   # get 'sessions/new' => 'sessions#new', as: :new_session

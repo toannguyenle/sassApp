@@ -7,5 +7,6 @@ class User
   # password
   # password_confirmation
   field :email, type: String
+  field :is_admin, type: Mongoid::Boolean, default: false
   field :password_digest, type: String #hash to store encrypted password
 end

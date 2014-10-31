@@ -1,5 +1,6 @@
 <div class="main">
 <h1>Log In</h1>
+<!-- POST BACK TO SESSIONS PATH instead of deafult posting back to USER CONTROLLER} -->
 <%= form_for(@user, {url: sessions_path}) do |f| %>
   <% if @user.errors.any? %>
     <div id="error_explanation">

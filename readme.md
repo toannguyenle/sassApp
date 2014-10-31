@@ -1,3 +1,7 @@
+User authentication added.
+Admin functionality: log in as "admin" and password: "admin"
+
+
 #Sassy-Art (Styling Rails Apps with SASS)
 
 This is a sample Rails app (limited functionality -- Index action only) designed for the SASS lesson. 

@@ -13,5 +13,3 @@ paintings = Painting.create([{name: "The Starry Night", artist: "Van Gogh", year
 	{name: "Campbell's Soup Cans", artist: "Warhol", year: "1962"},
 	{name: "Portrait of a Girl", artist: "Kahlo", year: "1929"},
 	{name: "No. 5, 1948", artist: "Pollock", year: "1948"},])
-
-users = User.create([{email: a},{email: b}])
